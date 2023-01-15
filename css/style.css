@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     src: url('../fonts/montserrat-v14-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     src: url('../fonts/montserrat-v14-latin-500.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Medium'), local('Montserrat-Medium'), url('../fonts/montserrat-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -35,7 +35,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     src: url('../fonts/montserrat-v14-latin-800.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('../fonts/montserrat-v14-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -72,8 +72,8 @@ img {
 .section-tytle {
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 59px;
+    font-size: 50px;
+    line-height: 60px;
     position: relative;
     color: #313131;
     z-index: 10;
