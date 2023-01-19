@@ -1,27 +1,27 @@
-@media (min-width: 1920px) {
+@media (min-width: 1900px) {
     .intro__subtitle {
-        margin-bottom: 160px;
+        margin-bottom: 150px;
     }
     .video__content {
         position: absolute;
-        z-index: 2;
-        left: 0px;
+        z-index: 1;
+        left: 1px;
     }
 }
 
-@media (max-width: 1172px) {
+@media (max-width: 1170px) {
     .wrapper {
-        max-width: 940px;
+        max-width: 920px;
         margin: 0 auto;
     }
     .header__wrapper {
-        height: 100px;
+        height: 102px;
         grid-area: header;
         display: grid;
         grid-template: 1fr / 1fr minmax(auto, 150px) minmax(auto, 1100px) 1fr;
     }
     .header__logo img, .footer__logo img {
-        max-width: 50px;
+        max-width: 52px;
         display: block;
     }
     .footer {
@@ -32,10 +32,10 @@
     }
     .intro__row {
         position: absolute;
-        bottom: 50px;
+        bottom: 52px;
     }
     .our__service-content:nth-child(3), .our__service-content:nth-child(5) {
-        padding-left: 1px;
+        padding-left: 2px;
     }
     .advantages_row {
         display: flex;
@@ -43,37 +43,37 @@
         justify-content: space-between;
     }
     .video__text {
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 40px;
-        max-width: 215px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        max-width: 210px;
     }
 }
 
 /* Burger style Header start */
 
-@media (max-width: 980px) {
+@media (max-width: 970px) {
     body.lock {
         overflow: hidden;
     }
     .header__wrapper {
-        height: 100px;
+        height: 102px;
     }
     .header__burger {
         display: block;
-        width: 30px;
-        height: 20px;
+        width: 32px;
+        height: 22px;
         position: absolute;
         right: 0;
         top: 50%;
-        z-index: 2;
+        z-index: 1;
     }
     .header__burger:before, .header__burger::after {
         content: " ";
-        background-color: rgb(157, 0, 255);
+        background-color: rgb(25, 0, 255);
         position: absolute;
         width: 100%;
-        height: 3px;
+        height: 1px;
         right: 10px;
         bottom: 25px;
         transition: all 0.3s ease 0s;
@@ -86,7 +86,7 @@
     }
     .header__burger span {
         position: absolute;
-        background-color: red;
+        background-color: rgb(43, 0, 255);
         right: 10px;
         width: 100%;
         height: 2px;
@@ -100,7 +100,7 @@
         width: 100%;
         height: 100%;
         overflow: auto;
-        padding-top: 180px;
+        padding-top: 170px;
         background-color: white;
         transition: all 0.3s ease 0s;
     }
@@ -121,17 +121,17 @@
         margin: 0px 0px 40px 0px;
     }
     .header__link, .header__online-center {
-        font-size: 24px;
+        font-size: 22px;
     }
     .header__burger.active:before {
         transform: rotate(45deg);
-        top: 9px;
-        right: 30px;
+        top: 8px;
+        right: 32px;
     }
     .header__burger.active:after {
         transform: rotate(-45deg);
-        bottom: 9px;
-        right: 30px;
+        bottom: 8px;
+        right: 32px;
     }
     .header__burger.active span {
         transform: scale(0);
@@ -159,36 +159,36 @@
         grid-row: 2 / 3;
     }
     .footer__menu li {
-        padding: 10px;
+        padding: 12px;
     }
     .footer__icons {
-        padding: 10px;
+        padding: 12px;
         grid-column: 1;
         grid-row: 3 / 4;
     }
     .footer__icons i {
         float: none;
-        padding: 5px;
+        padding: 6px;
     }
 }
 
 /* Burger style Footer end */
 
-@media (max-width: 980px) {
+@media (max-width: 970px) {
     .intro {
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
     .wrapper {
-        max-width: 720px;
+        max-width: 710px;
     }
     .intro__title {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     .intro__subtitle {
         width: 100%;
-        font-size: 22px;
-        line-height: 27px;
-        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 18px;
     }
     .revoconda__row-pic {
         margin-bottom: 0px;
